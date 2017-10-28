@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAEFE631FA37B3A005F708C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFE621FA37B3A005F708C /* AppDelegate.swift */; };
+		CEAEFE651FA37B3A005F708C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFE641FA37B3A005F708C /* ViewController.swift */; };
+		CEAEFE681FA37B3A005F708C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFE661FA37B3A005F708C /* Main.storyboard */; };
+		CEAEFE6A1FA37B3A005F708C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFE691FA37B3A005F708C /* Assets.xcassets */; };
+		CEAEFE6D1FA37B3A005F708C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFE6B1FA37B3A005F708C /* LaunchScreen.storyboard */; };
+		CEAEFE781FA37B3A005F708C /* swosh_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFE771FA37B3A005F708C /* swosh_appTests.swift */; };
+		CEAEFE831FA37B3A005F708C /* swosh_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFE821FA37B3A005F708C /* swosh_appUITests.swift */; };
+		CEAEFE921FA48ABC005F708C /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFE911FA48ABC005F708C /* BorderButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAEFE741FA37B3A005F708C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAEFE571FA37B3A005F708C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAEFE5E1FA37B3A005F708C;
+			remoteInfo = swosh_app;
+		};
+		CEAEFE7F1FA37B3A005F708C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAEFE571FA37B3A005F708C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAEFE5E1FA37B3A005F708C;
+			remoteInfo = swosh_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEAEFE5F1FA37B3A005F708C /* swosh_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swosh_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAEFE621FA37B3A005F708C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEAEFE641FA37B3A005F708C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEAEFE671FA37B3A005F708C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAEFE691FA37B3A005F708C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAEFE6C1FA37B3A005F708C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEAEFE6E1FA37B3A005F708C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAEFE731FA37B3A005F708C /* swosh_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swosh_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAEFE771FA37B3A005F708C /* swosh_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swosh_appTests.swift; sourceTree = "<group>"; };
+		CEAEFE791FA37B3A005F708C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAEFE7E1FA37B3A005F708C /* swosh_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swosh_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAEFE821FA37B3A005F708C /* swosh_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swosh_appUITests.swift; sourceTree = "<group>"; };
+		CEAEFE841FA37B3A005F708C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAEFE911FA48ABC005F708C /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAEFE5C1FA37B3A005F708C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAEFE701FA37B3A005F708C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAEFE7B1FA37B3A005F708C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAEFE561FA37B3A005F708C = {
+			isa = PBXGroup;
+			children = (
+				CEAEFE611FA37B3A005F708C /* swosh_app */,
+				CEAEFE761FA37B3A005F708C /* swosh_appTests */,
+				CEAEFE811FA37B3A005F708C /* swosh_appUITests */,
+				CEAEFE601FA37B3A005F708C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAEFE601FA37B3A005F708C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFE5F1FA37B3A005F708C /* swosh_app.app */,
+				CEAEFE731FA37B3A005F708C /* swosh_appTests.xctest */,
+				CEAEFE7E1FA37B3A005F708C /* swosh_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAEFE611FA37B3A005F708C /* swosh_app */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFE901FA4876C005F708C /* Views */,
+				CEAEFE621FA37B3A005F708C /* AppDelegate.swift */,
+				CEAEFE641FA37B3A005F708C /* ViewController.swift */,
+				CEAEFE661FA37B3A005F708C /* Main.storyboard */,
+				CEAEFE691FA37B3A005F708C /* Assets.xcassets */,
+				CEAEFE6B1FA37B3A005F708C /* LaunchScreen.storyboard */,
+				CEAEFE6E1FA37B3A005F708C /* Info.plist */,
+			);
+			path = swosh_app;
+			sourceTree = "<group>";
+		};
+		CEAEFE761FA37B3A005F708C /* swosh_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFE771FA37B3A005F708C /* swosh_appTests.swift */,
+				CEAEFE791FA37B3A005F708C /* Info.plist */,
+			);
+			path = swosh_appTests;
+			sourceTree = "<group>";
+		};
+		CEAEFE811FA37B3A005F708C /* swosh_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFE821FA37B3A005F708C /* swosh_appUITests.swift */,
+				CEAEFE841FA37B3A005F708C /* Info.plist */,
+			);
+			path = swosh_appUITests;
+			sourceTree = "<group>";
+		};
+		CEAEFE901FA4876C005F708C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFE911FA48ABC005F708C /* BorderButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAEFE5E1FA37B3A005F708C /* swosh_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAEFE871FA37B3A005F708C /* Build configuration list for PBXNativeTarget "swosh_app" */;
+			buildPhases = (
+				CEAEFE5B1FA37B3A005F708C /* Sources */,
+				CEAEFE5C1FA37B3A005F708C /* Frameworks */,
+				CEAEFE5D1FA37B3A005F708C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swosh_app;
+			productName = swosh_app;
+			productReference = CEAEFE5F1FA37B3A005F708C /* swosh_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAEFE721FA37B3A005F708C /* swosh_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAEFE8A1FA37B3A005F708C /* Build configuration list for PBXNativeTarget "swosh_appTests" */;
+			buildPhases = (
+				CEAEFE6F1FA37B3A005F708C /* Sources */,
+				CEAEFE701FA37B3A005F708C /* Frameworks */,
+				CEAEFE711FA37B3A005F708C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAEFE751FA37B3A005F708C /* PBXTargetDependency */,
+			);
+			name = swosh_appTests;
+			productName = swosh_appTests;
+			productReference = CEAEFE731FA37B3A005F708C /* swosh_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEAEFE7D1FA37B3A005F708C /* swosh_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAEFE8D1FA37B3A005F708C /* Build configuration list for PBXNativeTarget "swosh_appUITests" */;
+			buildPhases = (
+				CEAEFE7A1FA37B3A005F708C /* Sources */,
+				CEAEFE7B1FA37B3A005F708C /* Frameworks */,
+				CEAEFE7C1FA37B3A005F708C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAEFE801FA37B3A005F708C /* PBXTargetDependency */,
+			);
+			name = swosh_appUITests;
+			productName = swosh_appUITests;
+			productReference = CEAEFE7E1FA37B3A005F708C /* swosh_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAEFE571FA37B3A005F708C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ahmad Jamaly Rabib";
+				TargetAttributes = {
+					CEAEFE5E1FA37B3A005F708C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BJZ7R3GF73;
+						ProvisioningStyle = Automatic;
+					};
+					CEAEFE721FA37B3A005F708C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BJZ7R3GF73;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEAEFE5E1FA37B3A005F708C;
+					};
+					CEAEFE7D1FA37B3A005F708C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BJZ7R3GF73;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEAEFE5E1FA37B3A005F708C;
+					};
+				};
+			};
+			buildConfigurationList = CEAEFE5A1FA37B3A005F708C /* Build configuration list for PBXProject "swosh_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAEFE561FA37B3A005F708C;
+			productRefGroup = CEAEFE601FA37B3A005F708C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAEFE5E1FA37B3A005F708C /* swosh_app */,
+				CEAEFE721FA37B3A005F708C /* swosh_appTests */,
+				CEAEFE7D1FA37B3A005F708C /* swosh_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAEFE5D1FA37B3A005F708C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAEFE6D1FA37B3A005F708C /* LaunchScreen.storyboard in Resources */,
+				CEAEFE6A1FA37B3A005F708C /* Assets.xcassets in Resources */,
+				CEAEFE681FA37B3A005F708C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAEFE711FA37B3A005F708C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAEFE7C1FA37B3A005F708C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAEFE5B1FA37B3A005F708C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAEFE651FA37B3A005F708C /* ViewController.swift in Sources */,
+				CEAEFE631FA37B3A005F708C /* AppDelegate.swift in Sources */,
+				CEAEFE921FA48ABC005F708C /* BorderButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAEFE6F1FA37B3A005F708C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAEFE781FA37B3A005F708C /* swosh_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAEFE7A1FA37B3A005F708C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAEFE831FA37B3A005F708C /* swosh_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAEFE751FA37B3A005F708C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAEFE5E1FA37B3A005F708C /* swosh_app */;
+			targetProxy = CEAEFE741FA37B3A005F708C /* PBXContainerItemProxy */;
+		};
+		CEAEFE801FA37B3A005F708C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAEFE5E1FA37B3A005F708C /* swosh_app */;
+			targetProxy = CEAEFE7F1FA37B3A005F708C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAEFE661FA37B3A005F708C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAEFE671FA37B3A005F708C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAEFE6B1FA37B3A005F708C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAEFE6C1FA37B3A005F708C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAEFE851FA37B3A005F708C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAEFE861FA37B3A005F708C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAEFE881FA37B3A005F708C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJZ7R3GF73;
+				INFOPLIST_FILE = swosh_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playoffstudio.swosh-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEAEFE891FA37B3A005F708C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJZ7R3GF73;
+				INFOPLIST_FILE = swosh_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playoffstudio.swosh-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEAEFE8B1FA37B3A005F708C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJZ7R3GF73;
+				INFOPLIST_FILE = swosh_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playoffstudio.swosh-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swosh_app.app/swosh_app";
+			};
+			name = Debug;
+		};
+		CEAEFE8C1FA37B3A005F708C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJZ7R3GF73;
+				INFOPLIST_FILE = swosh_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playoffstudio.swosh-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swosh_app.app/swosh_app";
+			};
+			name = Release;
+		};
+		CEAEFE8E1FA37B3A005F708C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BJZ7R3GF73;
+				INFOPLIST_FILE = swosh_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playoffstudio.swosh-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swosh_app;
+			};
+			name = Debug;
+		};
+		CEAEFE8F1FA37B3A005F708C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BJZ7R3GF73;
+				INFOPLIST_FILE = swosh_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playoffstudio.swosh-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swosh_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAEFE5A1FA37B3A005F708C /* Build configuration list for PBXProject "swosh_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAEFE851FA37B3A005F708C /* Debug */,
+				CEAEFE861FA37B3A005F708C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAEFE871FA37B3A005F708C /* Build configuration list for PBXNativeTarget "swosh_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAEFE881FA37B3A005F708C /* Debug */,
+				CEAEFE891FA37B3A005F708C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAEFE8A1FA37B3A005F708C /* Build configuration list for PBXNativeTarget "swosh_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAEFE8B1FA37B3A005F708C /* Debug */,
+				CEAEFE8C1FA37B3A005F708C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAEFE8D1FA37B3A005F708C /* Build configuration list for PBXNativeTarget "swosh_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAEFE8E1FA37B3A005F708C /* Debug */,
+				CEAEFE8F1FA37B3A005F708C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAEFE571FA37B3A005F708C /* Project object */;
+}
